@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 1</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="dataInput">
+      <div class="navbar">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+      </div>
+      <div class="content_1">
+        <h1>UBER stocks</h1>
+        <p>Upload UBER stocks csv file bellow</p>
+        <!-- <label for="csv-upload" class="user-csv-upload"
+          ><span></span> Upload csv file
+        </label>
+        <input
+          id="csv-upload"
+          name="csv-upload"
+          type="file"
+          accept=".csv"
+          required
+        /> -->
+
+        <!-- <button onclick="window.location.href='page2.html';" type="submit">
+          Submit
+        </button> -->
+
+        <form action="" method="post" enctype="multipart/form-data">
+          <label for="csv-upload" class="user-csv-upload">
+            Upload csv file
+          </label>
+          <input
+            id="csv-upload"
+            name="csv-upload"
+            type="file"
+            accept=".csv"
+            required
+          />
+          <button type="submit">Submit</button>
+        </form>
+
+        <!-- <li>
+          <a href="page2.html">Outputttt</a>
+        </li> -->
+        <!-- <script>
+          function validateFile() {
+            let csvFile = document.getElementById("csv-upload");
+
+            if (document.getElementById("csv-upload").files.length == 0) {
+              alert("Please attach csv file");
+            }
+          }
+        </script> -->
+      </div>
+    </div>
+
+    <main></main>
+  </body>
+</html>
